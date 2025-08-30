@@ -1,0 +1,229 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+#logo{
+    display: inline;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto; 
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #fefefe;
+    text-decoration: underline;
+}
+
+.banner{
+    width: 100%;
+}
+
+.tituloPrincipal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.computacion{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.principal{
+    padding: 3em;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.tituloPrincipal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa_contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.botones{
+    text-align: center;
+    background: #888888;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.whatsapp {
+  background-color: #25D366;
+}
+
+.btn i {
+  font-size: 20px;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+footer{
+    text-align: center;
+    background-color: #888888;
+    padding: 40px;
+}
+
+.materias{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.materias a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.materias li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 10px 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.materias li:hover{
+    border-color: #c78c19;
+}
+
+.materias li:active{
+    border-color: #088c19;
+}
+
+.materias h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.materias li:hover h2{
+    font-size: 33px;
+}
+
+.materias_descripcion{
+    font-size: 18px;
+}
+
+.listaPuntos {
+    padding-left: 20px;
+}
+
+.listaPuntos li {
+    list-style-type: disc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 480px) {
+
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .caja, .principal, .mapa_contenido, .contenido_diferenciales{
+        width: auto;
+    }
+    
+    .lista_diferenciales, .imagenDiferenciales{
+        width: 100%;
+    }
+
+    .materias{
+        width: auto;
+    }
+
+    .materias li{
+        display: block;
+        width: 100%;
+        margin: 1em 0;
+    }
+
+    .materias img{
+        width: auto;
+        height: auto;
+    }
+}
